@@ -117,7 +117,7 @@ const Wrapper = styled.div`
   }
 
   button {
-    background-color: ${props => props.theme.colors.BackgroundBlue};
+    background-color: ${props => props.theme.colors.backgroundBlue};
     width: 100%;
     padding: 10px 0;
   }
