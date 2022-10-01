@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
 import { ThemeProvider } from 'styled-components';
-import themeStyle from './themeStyle';
+import themeStyle from './theme';
 import '../styles/index.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
